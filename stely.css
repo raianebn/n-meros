@@ -34,7 +34,7 @@ body {
     gap: 15px;
 }
 
-/* Estilo padrão dos botões (-) e (+) */
+/* Estilo padrao dos botoes (-) e (+) */
 .botao-menos, .botao-mais {
     background-color: transparent;
     color: #ffffff;
@@ -51,7 +51,7 @@ body {
     background-color: rgba(0, 86, 179, 0.2);
 }
 
-/* Caixa central que exibe o número */
+/* Caixa central que exibe o numero */
 .parametro-senha__texto {
     color: #ffffff;
     font-size: 24px;
