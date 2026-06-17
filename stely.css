@@ -1,0 +1,66 @@
+/* Configurações básicas da página */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container escuro principal */
+.seletor-caracteres {
+    background-color: #001529; /* Azul escuro do protótipo */
+    padding: 30px 40px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+.titulo-seletor {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+/* Alinhamento horizontal dos botões e do número */
+.botoes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Estilo padrão dos botões (-) e (+) */
+.botao-menos, .botao-mais {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #0056b3; /* Cor da borda azul */
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.botao-menos:hover, .botao-mais:hover {
+    background-color: rgba(0, 86, 179, 0.2);
+}
+
+/* Caixa central que exibe o número */
+.parametro-senha__texto {
+    color: #ffffff;
+    font-size: 24px;
+    border: 2px solid #0056b3;
+    width: 60px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 4px;
+}
